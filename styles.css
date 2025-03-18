@@ -61,11 +61,12 @@ body{
     margin-top: -10px;
 }
 .details{
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 50px;
     margin-top: 50px;
+    font-size: 30px;
 }
 col{
     display: flex;
@@ -74,4 +75,9 @@ col{
 }
 .col img{
     width: 40px;
+    margin-right: 20px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
 }
